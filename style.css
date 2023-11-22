@@ -1,0 +1,262 @@
+ body{
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+ }
+ .header{
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+ }
+ .logo{
+    color: orange;
+    font-size: 60px;
+    font-weight: bolder;
+    animation: blink 2s ease-in-out  infinite  ;
+    font-family:'Courier New', Courier, monospace
+  
+ }
+ @keyframes blink{
+    0%{color: orange;}
+    100%{color: black;}
+ }
+ .logo i{
+    margin-left: 30px;
+     font-size: 60px;
+ }
+ .header a{
+    color: orange;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-left: 75px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace
+   
+ }
+ .anchor{
+    margin-top: -35px;
+    margin-left: 670px;
+    animation: hello 1s ease-in-out  calc(1);
+ }
+ .anchor a:hover{
+    text-decoration:underline;
+ }
+ .main{
+   
+    width: 100%;
+    height: 700px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-black-simple-and-delicious-pizza-food-e-commerce-banner-taobao-picture-image_1056062.jpg");
+    background-size: 100% 100%;
+ }
+ .main h1{
+    margin-top: 100px;
+    margin-left:310px;
+    font-size: 90px;
+    font-weight: bolder;
+   font-family:'Courier New', Courier, monospace;
+   color: orange;
+   animation: hello 1s ease-in-out  calc(1);
+   
+ }
+ .main p{
+   font-size: 30px;
+   font-weight: bolder;
+   font-family:'Courier New', Courier, monospace;
+   margin-left: 250px;
+   animation: hello 1s ease-in-out  calc(1);
+ }
+ .srchlctn{
+   color: orange;
+   margin-top:30px ;
+   margin-left:450px ;
+   height: 33px;
+   width: 350px;
+   border-radius: 5px;
+   border: none;
+   background-color: black;
+   border-color: orange;
+   border-style: solid;
+   border-width: 1px;
+   animation: hello 1s ease-in-out  calc(1);
+ }
+ .srchlctn:hover{
+   opacity: 0.8;
+   box-shadow: 0 0 5px slategray, 0 0 25px slategray , 0 0 50px slategray , 0 0 100px slategray , 0 0 200px slategray;
+ }
+ .btn1{
+   margin-top: 30px;
+   margin-left: 565px;
+   height: 35px;
+   width: 150px;
+   cursor:progress;
+   border-radius: 10px;
+   border: none;
+   background-color: black;
+   border-color: orange;
+   border-style: solid;
+   color: orange;
+   border-width: 1px;
+   animation: hello 1s ease-in-out  calc(1);
+ }
+ @keyframes hello{
+   from{opacity: 0;}
+   to{opacity: 1;}
+}
+ button:active{
+   transform: scale(0.3);
+ }
+ .btn1:hover{
+   opacity: 0.8;
+   box-shadow: 0 0 5px slategray, 0 0 25px slategray , 0 0 50px slategray , 0 0 100px slategray , 0 0 200px slategray;
+ }
+ .btn2{
+   margin-top: 25px;
+   margin-left: 595px;
+   height: 30px;
+   width: 100px;
+   cursor:progress;
+   border-radius: 10px;
+   border: none;
+   background-color: black;
+   border-color: orange;
+   border-style: solid;
+   color: orange;
+   border-width: 1px;
+   animation: hello 1s ease-in-out  calc(1);
+ }
+ .btn2:hover{
+   opacity: 0.8;
+   box-shadow: 0 0 5px slategray, 0 0 25px slategray , 0 0 50px slategray , 0 0 100px slategray , 0 0 200px slategray;
+ }
+
+ .main2{
+  
+   height: 750px;
+   width: 100%;
+   color: orange;
+   
+ }
+ .main2 h2{
+   font-size: 60px;
+   margin-left: 100px;
+   margin-top: 100px;
+   font-family:'Courier New', Courier, monospace;
+ }
+ .menu2{
+   margin-top: -600px;
+   display: block;
+   display: flex;
+   justify-content: space-evenly;
+   margin-left: 600px;
+   font-size: 30px;
+   font-weight: bolder;
+ }
+ .btn{
+   margin-left: 900px;
+   height: 35px;
+   background-color: orange;
+   color: white;
+   border-radius: 1px;
+   border-width: 0.1px;
+   border: solid white;
+ }
+ .btnn{
+   background-color: orange;
+   color: white;
+   border-radius: 1px;
+   border-width: 0.1px;
+   border: solid white;
+   height: 35px;
+ }
+ .photo{
+   margin-left: 50px;
+   height: 550px;
+   width: 800px;
+   display: inline-block;
+   background-image: url("https://c4.wallpaperflare.com/wallpaper/161/113/135/pizza-fast-food-vegetables-food-wallpaper-preview.jpg");
+   background-size: 100% 100%;
+   border-right: 2px solid white;
+ }
+ .main3{
+   width: 100%;
+   height: 800px;
+   background-image: url("https://wallpapers.com/images/hd/black-background-pumpkin-mix-n2tvo8bd85f0bknr.jpg");
+   background-size: 100% 100%;
+   color: white;
+ }
+.rese h3{
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 580px;
+  text-decoration: underline;
+}
+.main3 p{
+   color: white;
+   font-weight: bolder;
+   margin-left: 520px;
+}
+.NAME{
+   margin-left: 600px;
+   height: 40px;
+   width:300px;
+   background-color: transparent;
+   border: 0.5px solid white;
+   border-radius: 5px;
+   color: white;
+
+}
+.send{
+   margin-left: 600px;
+   height: 40px;
+   width:300px;
+   background-color: transparent;
+   border: 0.5px solid white;
+   border-radius: 5px;
+   color: white;
+}
+.F{
+   color: white;
+   font-size: 48PX;
+   font-weight: 900;
+   height: 62px;
+   margin-left: 250px;
+}
+.footer{
+   display: inline-block;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 140px;
+}
+.footer button{
+   height: 84px;
+   width: 90%;
+   margin-left: 40px;
+   margin-top: 8px;
+   background-color:rgba(112, 128, 144,0.4);
+   text-align:left;
+   font-size: 25px;
+   font-weight: 900;
+   font-family:Arial, Helvetica, sans-serif;
+   color: white;
+  
+}
+button:hover{
+   opacity: 0.8;
+   box-shadow: 0 0 5px slategray, 0 0 25px slategray , 0 0 50px slategray , 0 0 100px slategray , 0 0 200px slategray;
+} 
+.footer i{
+   float: right;
+   font-size: 30px;
+   margin-right: 10px;
+}
+ 
+ 
+ 
+ 
+
+ 
